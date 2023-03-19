@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #1C1C1C;
+    font-size: 14px;
+    background-color: #F6F6F4;
+}
+
+.card {
+    @apply max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow
+}
+.card-img {
+    @apply w-10 rounded-md shadow-xl mb-2
+}
+.card-tittle {
+    @apply mb-2 text-2xl font-semibold tracking-tight text-gray-900
+}
+.card-desc {
+    @apply mb-3 font-normal text-gray-500
+}
+.card-button {
+    @apply inline-flex items-center text-blue-600 text-lg hover:underline
+}
